@@ -1,0 +1,2 @@
+SELECT p.Name, p.Budget AS "Groesstes Budget" FROM projekt p WHERE p.Budget = (SELECT MAX(Budget) FROM projekt);
+SELECT p.Name, p.Budget AS "Kleinstes Budget" FROM projekt p WHERE p.Budget = (SELECT MIN(Budget) FROM projekt);

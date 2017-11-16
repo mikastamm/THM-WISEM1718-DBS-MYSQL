@@ -1,0 +1,1 @@
+SELECT SUM(Budget) AS Gesamtbudget FROM projekt;

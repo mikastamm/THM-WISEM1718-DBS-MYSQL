@@ -1,0 +1,2 @@
+UPDATE projekt SET Budget=Budget*1.08 WHERE projekt.ProjektName = "Mobile Business Intelligence";
+UPDATE projekt SET Budget=Budget*1.04 WHERE year(projekt.Beginndatum) = 2016 AND projekt.ProjektName != "Mobile Business Intelligence"; 

@@ -1,0 +1,1 @@
+CREATE TABLE reisen_archiv AS (SELECT * FROM reisen);
